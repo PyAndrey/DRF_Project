@@ -1,0 +1,15 @@
+templates/
+├── base.html            # Общий базовый шаблон для всех страниц
+├── includes/            # Частичные шаблоны (например, для header, footer и т.д.)
+│   ├── header.html
+│   ├── footer.html
+│   └── sidebar.html
+├── users/               # Шаблоны для приложения "users"
+│   ├── login.html
+│   ├── signup.html
+│   └── profile.html
+├── core/                # Шаблоны для основного приложения "core"
+│   ├── home.html
+│   └── about.html
+└── api/                 # Шаблоны для API (если требуется)
+    └── docs.html       # Если API требует документации или особых страниц
